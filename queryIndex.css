@@ -1,0 +1,72 @@
+ 
+
+
+@media (max-width:768px) {  
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 800vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+@media (max-width:720px) {  
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 500vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+@media (max-width:640px) {  
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 600vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+
+@media (max-width:390px) {  
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 700vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+
+@media (max-width:346px) {  
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 810vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+
+
+/*rotacion de pantalla*/
+@media (max-height:480px) {  
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 810vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}

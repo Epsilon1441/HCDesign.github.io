@@ -1,0 +1,59 @@
+.fondo{
+    background-image: url(imagenes/fondocontacto.png);
+    height: 900vh;
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    
+}
+.form-container{
+     
+    padding: 15%;
+}
+.h2contacto{ 
+    font-family: "Allan", serif;
+    font-size: 4rem !important;
+    background-color: rgba(54, 239, 252, 0.5);
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 800 !important;
+    height: 20vh;
+    padding: 2%;
+    
+   
+}
+
+
+.mb-3{
+    
+    text-align: center;
+
+}
+
+.form-label{
+    background-color: rgba(36, 214, 205, 0.5);
+    border-radius: 20px;
+    height: 8vh;
+    font-size: 1.9rem;
+    font-weight: 800;
+    padding: 0 2%;
+}
+
+
+.form-control{
+    background-color: rgb(253, 225, 228) !important;
+}
+
+
+
+
+
+.form-container {
+    flex: 1; /* Permite que el contenedor del formulario ocupe espacio */
+    min-width: 250px; /* Ancho mínimo para el contenedor del formulario */
+    text-align: center; /* Centra el texto en el formulario */
+    margin-top: 20px; /* Espacio arriba del formulario */
+}
+
+
+

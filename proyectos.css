@@ -1,0 +1,157 @@
+.secciongeneral{
+    margin: 0% ;
+    padding: 0%;
+    box-sizing: border-box;
+    display: flex; /* Utiliza Flexbox para el diseño */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias filas */
+    justify-content: space-around; /* Espacio entre los elementos */
+    padding: 20px; /* Espacio interno de la sección */
+}
+    
+ 
+
+.fondo{
+    background-image: url(imagenes/fondo2.jfif);
+    background-size: cover;
+    height: 170vh;
+     
+   width: 100%;
+   background-position: center; /* Centra la imagen de fondo */
+             
+   display: flex; /* Utiliza Flexbox para alinear el contenido */
+   align-items: center; /* Centra verticalmente el contenido */
+   justify-content: center; /* Centra horizontalmente el contenido */
+}
+ 
+
+
+
+
+.contenedortarjetas{
+
+    display: flex; /* Utiliza Flexbox para alinear las tarjetas horizontalmente */
+    justify-content: space-around; /* Espacio entre las tarjetas */
+    padding: 8% 20px; /* Espacio interno de la sección */
+    display: flex; /* Utiliza Flexbox para el diseño */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias filas */
+    
+}
+
+.card {
+    width: 18rem; /* Ancho fijo de la tarjeta */
+    margin: 10px; /* Margen entre tarjetas */
+    border: 1px solid #ccc; /* Borde opcional */
+    border-radius: 48px !important; /* Bordes redondeados */
+    overflow: hidden; /* Oculta el desbordamiento */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    
+}
+
+.card img {
+    width: 100%; /* La imagen ocupa todo el ancho de la tarjeta */
+    height: 400px; /* Mantiene la proporción de la imagen */
+    border-radius: 20px 20px 0 0;
+    
+}
+
+.card img:hover {
+    width: 100%; /* La imagen ocupa todo el ancho de la tarjeta */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 20px 20px 20px 20px ;
+    
+}
+
+
+ 
+
+.card-img-top:hover{
+    transform: scale(1.2); /* Aumenta el tamaño de la imagen al pasar el ratón */
+    border-radius: 20px 20px 50px 50px !important;
+}
+
+.card-body {     
+    background-color: antiquewhite;
+    padding: 15px; /* Espacio interno del cuerpo de la tarjeta */
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+
+.card-text{
+    color: rgb(0, 20, 20);
+     
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.servicio1 {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    flex-direction: row; /* Mantiene los elementos en fila */
+    align-items: center; /* Centra los elementos verticalmente */
+    padding: 20px; /* Espaciado interno */
+    max-width: 100%; /* Asegura que el contenedor no exceda el ancho de la pantalla */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no hay suficiente espacio */
+}
+
+.textocontenedor1 {
+    flex: 1; /* Permite que el contenedor de texto ocupe espacio */
+    min-width: 250px; /* Ancho mínimo para el contenedor de texto */
+    text-align: center; /* Centra el texto */
+}
+
+.ulclass {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el espaciado interno */
+    margin: 20px 0; /* Espacio vertical */
+}
+
+.liclass {
+    margin: 10px 0; /* Espacio entre los elementos de la lista */
+}
+
+.imagencontenedor {
+    flex: 1; /* Permite que el contenedor de la imagen ocupe espacio */
+    min-width: 250px; /* Ancho mínimo para el contenedor de la imagen */
+    text-align: center; /* Centra la imagen */
+}
+
+.imagen1 {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Media Queries para pantallas más pequeñas */
+@media (max-width: 576px) {
+    .servicio1 {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos horizontalmente */
+    }
+
+    .textocontenedor1 {
+        text-align: center; /* Asegura que el texto esté centrado */
+    }
+
+    .imagencontenedor {
+        margin-top: 20px; /* Espa

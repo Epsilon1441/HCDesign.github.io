@@ -1,0 +1,60 @@
+.fondo{
+    background-image: url(imagenes/fondoquiensoy.png );
+    background-size: cover;
+    height: 300vh;
+}
+
+
+
+
+.cajadetexto{
+     
+    padding: 4% 5% !important;
+    padding: 16%;
+     
+}
+
+.parrafocontenedor{
+    
+     
+    background-color: rgba(255, 154, 151, 0.856); /* Rojo semitransparente */
+
+      
+     border-radius: 20px;
+     padding: 2%;
+     display: flex;
+     gap: 1.5%
+     
+}
+
+.texto{
+     
+    color: rgb(255, 251, 251);
+    font-weight: 700;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.foto{
+    width: 40%;
+    height: 25% !important;
+    
+    border-radius: 10%;
+     
+    border-color: black !important;
+}
+
+
+.referencia{
+    color: rgb(9, 25, 255);
+    text-decoration: none;
+}
+
+.referencia:hover{
+    background-color: rgb(209, 203, 203);
+    border-radius: 50%;
+    scale: 1 1;
+    color: rgb(255, 9, 83);
+    transition: transform 0.3s ease; /* Transición suave */
+    
+}

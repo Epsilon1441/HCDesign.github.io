@@ -1,0 +1,134 @@
+
+
+.fondo{
+    box-sizing: border-box;
+    background-image: url(imagenes/fondoservicios.png);
+    background-size: cover;
+    height: 670vh;
+     
+   width: 100%;
+   background-position: center; /* Centra la imagen de fondo */
+             
+   display: flex; /* Utiliza Flexbox para alinear el contenido */
+   align-items: center; /* Centra verticalmente el contenido */
+   justify-content: center; /* Centra horizontalmente el contenido */
+   padding: 6%;
+   flex-direction: column;
+   gap: 2%;
+    
+   
+ 
+}
+
+ 
+.contenedor{
+    
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+
+.flecha{
+    background-color: aliceblue;
+    height: 60%;
+}
+
+ 
+
+.col-md-6{
+   background-color: rgba(255, 0, 0, 0.5);
+   padding: 2%;
+   border-radius: 20px;
+    
+    
+}
+ 
+
+.list-unstyled{
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.servicio1{
+    box-sizing: border-box;
+    display: flex;
+    height: 60vh;
+    width: 40%;
+    margin-top: 3%;
+    padding: 20px;
+    
+}
+.textocontenedor1{
+    box-sizing: border-box;
+    background-color: rgba(255, 0, 0, 0.5); /* Rojo semitransparente */
+    /* Puedes cambiar los valores: 
+       - 255, 0, 0 representa el color rojo
+       - 0.5 es la opacidad (0 es completamente transparente y 1 es completamente opaco) */
+    padding: 20px; /* Espaciado interno */
+    color: white; /* Color del texto */
+    width: 100%;
+    
+
+    
+    
+     
+}
+
+.ulclass{
+    list-style: none;
+    padding: 3%;
+    text-align: left;
+    font-weight: 300;
+    margin: 10px 0; /* Espacio vertical entre los li */
+    
+}
+
+
+
+.titulo {
+     color: rgb(255, 255, 255);
+     font-family: "Abril Fatface", serif;
+     font-size: 2.4rem;
+}
+
+.liclass{
+    font-weight: 700;
+    font-size: 1.9rem;
+    font-family: "Allan", serif;
+    padding: 3.2% 0;
+    color: aliceblue;
+     
+    
+}
+
+.imagencontenedor{
+    width: 100%;
+}
+
+.imagen1{
+    flex-wrap: wrap;
+    width: 140%;
+    height: 60vh;
+    
+
+}
+
+
+
+
+ 
+
+ 

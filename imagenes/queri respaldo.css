@@ -1,0 +1,327 @@
+
+
+
+@media (max-width: 2580px) { /*Nest Hub Max*/
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 260vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+ 
+
+
+
+
+@media (max-width: 1280px) { /*Nest Hub Max*/
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 260vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+ 
+
+
+
+
+@media (max-width: 1024px) {  /*Nest Hub  */
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 340vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+
+/* Nest Hub en orientación vertical */
+@media  (max-width: 1024px) and (orientation: portrait) {
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 140vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+
+ 
+
+
+
+
+@media (max-width: 912px) { /* Surface Pro 7*/
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 240vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+
+@media (max-width: 853px) {
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 160vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+ 
+
+
+
+@media (max-width: 768px) {
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 270vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+ 
+
+@media (max-width: 540px) {
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 350vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+@media (max-width: 430px) {
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 270vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+@media (max-width: 414px) {
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 280vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+
+@media (max-width: 412px) {
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 280vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 390px) {
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 300vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+
+@media (max-width: 375px) {
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 370vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+
+@media (max-width: 360px) {
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 330vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+@media (max-width: 344px) {
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 280vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+@media (max-width: 250px) {
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 420vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1201px)  {  
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 340vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+ 
+
+
+@media (max-width:794px) {  
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 440vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+
+@media (max-width:570px) {  
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 440vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+@media (max-width:400px) {  
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 440vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+@media (max-width:370px) {  
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 400vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+@media (max-width:370px) {  
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 450vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+
+@media (max-width:286px) {  
+    .cuerpocontenedor{
+        background-image: url(imagenes/fondo1.jpg);
+        height: 380vh;
+        background-size:  cover;
+        width: 100%;
+        
+    }
+}
+
+
+ 
